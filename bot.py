@@ -13,7 +13,7 @@ from datetime import time, datetime
 # CONFIG
 # =========================
 
-TOKEN = os.getenv("DISCORD_TOKEN") or "MTQ5NTgyMDg3NTM5ODkwNTg4Nw.Gpuegp.iIARMeGP-H6jwq6Pa8Tf_JV9ntM3RN9ucq1Zag"
+TOKEN = os.getenv("DISCORD_TOKEN")
 GUILD_ID = 1381856917772701696      # optional but recommended for faster slash command sync
 CHANNEL_ID = 1495997921110261840    # channel where the daily shop will post
 
