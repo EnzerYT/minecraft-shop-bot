@@ -86,6 +86,7 @@ ITEMS = {
         {"name": "Crown Gems", "price": "800 shells"},
 
         {"name": "Black Flash Charm", "price": "1600 shells"},
+        {"name": "Boogie Woogie", "price": "1500 shells"},
     ],
 }
 
