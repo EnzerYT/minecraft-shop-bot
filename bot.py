@@ -106,7 +106,7 @@ def save_json(path: Path, data) -> None:
         json.dump(data, f, indent=2)
 
 def load_players() -> list[str]:
-    return load_json(PLAYERS_FILE, ["EnzerYT"])
+    return load_json(PLAYERS_FILE, ["EnzerYT", "tyXbraga"])
 
 def save_players(players: list[str]) -> None:
     save_json(PLAYERS_FILE, sorted(set(players), key=str.lower))
